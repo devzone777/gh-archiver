@@ -19,7 +19,7 @@ public class GitHubRepository {
 	}
  
 	public static void getEach(int since) {
-		String url = "https://api.github.com/repositories?since=" + since+"&access_token=you-own-token";
+		String url = "https://api.github.com/repositories?since=" + since+"&access_token=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";
 		//String url = "https://api.github.com/repositories?since=" + since;
 		try {
 			CloseableHttpClient httpClient = HttpClientBuilder.create().build();
